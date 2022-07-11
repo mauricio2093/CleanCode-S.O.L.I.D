@@ -1,4 +1,7 @@
+/* eslint-disable import/extensions */
+/* eslint-disable import/no-unresolved */
 import './style.css';
+import './clean-code/05-DRY';
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 

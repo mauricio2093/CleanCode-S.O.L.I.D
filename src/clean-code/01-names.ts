@@ -31,7 +31,11 @@ class UserImplementation { };
 class UserMixin { };
 class AbstractUser { };
 interface IUser{ };
-
+class Manager { };
+class info { };
+class Individual { };
+class Processor { };
+class SpecialMonsterView { };
 // Mejor
 class User { }
 interface User { }

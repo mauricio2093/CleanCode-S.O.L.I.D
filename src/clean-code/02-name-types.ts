@@ -52,3 +52,27 @@
     throw new Error('Function not implemented.');
   }
 })();
+
+function sendEmail(toWhom: string): boolean {
+  // verificar correo
+  if(!toWhom.includes('@')) return false;
+
+  // construi el cuerpo o mensaje
+
+  // enviar correo
+
+  // si todo sale bien
+  return true;
+}
+
+function sendEmail1(toWhom: string, from: string, body: string): boolean {  // Es recomendable tres parametros por funcion
+  // verificar correo
+  if(!toWhom.includes('@')) return false;
+
+  // construi el cuerpo o mensaje
+
+  // enviar correo
+
+  // si todo sale bien
+  return true;
+}
