@@ -1,7 +1,7 @@
 /* eslint-disable import/extensions */
 /* eslint-disable import/no-unresolved */
 import './style.css';
-import './clean-code/06-classesB';
+import './CodeSmell/02-highTightCoupling';
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 

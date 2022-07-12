@@ -1,0 +1,72 @@
+Acrónimo STUPID
+6 code smells que se debe evitar:
+  - Singleton: patrón Singleton.
+  - Tig Coupling: alto acoplamiento.
+  - Untestability: código no probable (unit test).
+  - Premature optimization: optimizaciones prematuras.
+  - Indescriptive Naming: nombres poco descriptivos.
+  - Duplication: duplicidad de codigo, no aplicar el principio DYR.
+
+******************** Código no probable *********************
+Codigo dificilmente testeabfa-pull-left
+  - Codigo con alto acoplamiento.
+  - Codigo con muchas dependencias no inyectadas.
+  - Dependencias en el contexto global(Tipo Singleton).
+
+Debemos de tener en mente las pruebas desde la creacion del codigo.
+
+******************** Obtimizaciones prematuras ****************
+Mantener abiertas las opciones retrasando la toma de decisiones nos permite
+darle mayor relevancia a lo que es mas importante en una aplicacion.
+
+No se debe anticipar a los requisitos y desarrollar abstracciones innecesarias que
+puedan añadir complejidad accidental.
+  - Complejidad accidental: Cuando implememnatamos una solucion complejidad
+    a la minima indispensable.
+  - Complejidad esensial: La complejidad es inherente al problema.
+
+******************* Nombres poco descriptivos *******************
+- Nombre de variables mal nombradas.
+- Nombres de clases genericas.
+- Nombres de funciones mal nombradas.
+- Ser muy especifico o demasiado generico.
+
+*********************** Duplicidad de Codigo ************************
+No aplicar principio DYR
+
+Duplicidad Real:
+  - Codigo es identico y cumple la misma funcion.
+  - Un cambio implicaria actualizar todo el codigo
+    identico en varios lugares.
+  - Incrementa posibilidades de error humano al
+    olvidar una parte para actualizar.
+  - Mayor cantidad de pruebas innecesarias.
+
+Duplicidad Accidental:
+  - Codigo luce similiar pero cumple funciones
+    distintas.
+  - Cuando hay un cambio, solo hay que modificar
+    un solo lugar.
+  - Este tipo de duplicidad se puede trabjar con
+    parametros u optimizaciones.
+
+*********************** Otros "Code Smells" **********************
+refactoring.guru
+
+- Inflacion:
+  . Se arregla dividiendo por metodos y modulos.
+  . Amedida que crece los metodos van aumentando.
+  . Obsesion primitiva.
+  . Lista larga de parametros. mas de tres argumentos.
+
+- Todos los olores de este grupo contribuyen al acoplamiento excesivo
+  entre clases o muestran lo que sucede si el acoplamiento se reemplaza
+  por una delegacion excesiva.
+
+- Acopladores:
+  . Feacture Envy: Un metodo accede a los datos de otra objeto mas que
+    a sus propios datos.
+  . Intimidad inapropiada: Una clase usa metodos internos de otra clase, las
+    otras clases deben saber menos de otras clases.
+  . Cadenas de mensajes: Cuando tenemos una funcion A que llama a B, C y D.
+  . The Middle Man: Un clase realiza una accion y esta es delegada a otra clase.
