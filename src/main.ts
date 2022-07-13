@@ -1,7 +1,7 @@
 /* eslint-disable import/extensions */
 /* eslint-disable import/no-unresolved */
 import './style.css';
-import './CodeSmell/02-highTightCoupling';
+import './SOLID/01-SPR';
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 

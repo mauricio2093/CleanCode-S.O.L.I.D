@@ -1,0 +1,29 @@
+Los 5 principios S.O.L.I.D. de diseño de software son:
+
+S – Single Responsibility Principle (SRP)
+
+O – Open/Closed Principle (OCP)
+
+L – Liskov Substitution Principle (LSP)
+
+I – Interface Segregation Principle (ISP)
+
+D – Dependency Inversion Principle (DIP)
+
+El principio SOLID nos indica como organizar nuestras funciones
+y estructuras de datos en componenetes y como dichos componentres
+debene estar interconectados
+
+**************** SPR - Principio De Responsabilidad Unica *********************
+"Nunca deberia haber mas de un motivo por el cual
+ cambiar una clase o un modulo" - Robert C. Martin.
+
+"Tener una unica responsabilidad" !== "hacer una unica cosa" .
+
+- Detectar Violaciones:
+  . Nombres de clases y modulos demasiados genericos.
+  . Cambios en el codigo suelen afectar la clase o modulo.
+  . Las clases involucran multiples capas.
+  . Numero elevado de importaciones.
+  . Cantidad elevada de metodos publicos.
+  . Excesivo numero de lineas de codigo.
