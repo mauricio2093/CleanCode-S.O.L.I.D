@@ -27,3 +27,21 @@ debene estar interconectados
   . Numero elevado de importaciones.
   . Cantidad elevada de metodos publicos.
   . Excesivo numero de lineas de codigo.
+
+***************** PRINCIPIO ABIERTO Y CERRADO ******************
+Es un principio que depende mucho del contexto.
+
+- Establece que las entidades de software(clases, modulos, metodos, etc.)
+  deben estar abiertas para la extension, pero cerradas para la modificacion.
+
+- La forma mas sencilla de demostrar este principio es considerar un metodo
+  que hace una cosa.
+
+- El principio abierto- cerrado tambien se puede lograr de muchas maneras,
+  incluso mediante el uso de la herencia o mendiante patrones de diseño de
+  composicion como el patron de estrategia.
+
+Detectar Violaciones De OCP:
+  - Cambios normalmente afectan nuestra clase o modulo.
+  - Cuando una clase o modulo afecta muchas capas. (Presentacion,
+    Almacenamiento, etc.)
