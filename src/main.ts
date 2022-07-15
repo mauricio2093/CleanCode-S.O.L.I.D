@@ -1,7 +1,7 @@
 /* eslint-disable import/extensions */
 /* eslint-disable import/no-unresolved */
 import './style.css';
-import './SOLID/02-OPC-A';
+import './SOLID/03-LISKOV-A';
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 

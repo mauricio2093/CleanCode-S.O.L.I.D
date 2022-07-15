@@ -45,3 +45,9 @@ Detectar Violaciones De OCP:
   - Cambios normalmente afectan nuestra clase o modulo.
   - Cuando una clase o modulo afecta muchas capas. (Presentacion,
     Almacenamiento, etc.)
+
+
+***************** PRINCIPIO SUSTITUCION DE LISKOV ******************
+" Siendo U un subtipo de T, cualquier instancia de T deberia poder ser
+  sustituida por cualquier instancia de U sin alterar las propiedades del
+  sistema ".
