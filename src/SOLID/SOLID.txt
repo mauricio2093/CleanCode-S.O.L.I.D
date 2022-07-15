@@ -59,3 +59,26 @@ Detectar Violaciones De OCP:
 Detectar Violaciones ISP
 - Si las interfaces que diseñamos nos obligan a violar los principios de responsabilidad unica
   y Substitucion de Liskov
+
+
+***************** PRINCIPIO Dependency Inversion Principle (DIP)  ***************
+" Los modulos de alto nivel no deben depender de modulos de bajos nivel.
+  Ambos deben depender de abstracciones. Las abstracciones no deben depender
+  de concreciones. Los detalles deben depender de abstracciones".
+
+  - Los modulos de alto nivel no deberian depender de modulos de bbajo nivel.
+  - Ambos deberian depender de abstracciones.
+  - Las abstracciones no deberian depender de detalles.
+  - Los detalles deberian depende de abstracciones.
+
+Los componenetes mas importantes son aquelllos centrados en resolver el problema subyacente al negocio,
+es decir, la capa de dominio.
+Los menos importantes son los que estan proximos al la infraestrurctura, es decir aquelllos
+relacionados con la UI, la persistencia, la comunicacion con API externas, etc.
+
+Inyeccion de Dependencias
+  Dependencia en programacion, significa que un modulo o componente requiere de otro para poder
+  realizar su trabajo.
+
+En algun momento nuestro programa o aplicacion llegara a estar formado por muchos modulos. Cuando esto
+pase, es cuando debemos usar Inyeccion de dependencias.
