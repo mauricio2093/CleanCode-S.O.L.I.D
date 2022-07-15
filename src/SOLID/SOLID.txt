@@ -51,3 +51,11 @@ Detectar Violaciones De OCP:
 " Siendo U un subtipo de T, cualquier instancia de T deberia poder ser
   sustituida por cualquier instancia de U sin alterar las propiedades del
   sistema ".
+
+
+***************** PRINCIPIO DE Interface Segregation Principle (ISP) ***************
+" Los clientes no deberian estar obligados a depender de interfaces que no utilicen" Robert C.
+
+Detectar Violaciones ISP
+- Si las interfaces que diseñamos nos obligan a violar los principios de responsabilidad unica
+  y Substitucion de Liskov
